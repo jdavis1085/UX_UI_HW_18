@@ -2,15 +2,14 @@
     display: inline-block;
     vertical-align: top;
 }
-.logo {
-    display: inline-block
-    width: 23%;
-    padding: 1%;
+.navigation {
+   background-image: url("images/istockphoto-1181589191-612x612.jpg");
+   height: 400px;
 }
- nav {
-width: 73%;
-padding: 1%;
+.logo2 {
+   float: left;
 }
+
  ul {
     width: 50%;
     margin-left: auto;
@@ -21,18 +20,22 @@ padding: 1%;
 .backgroundimg {
     max-height: 100%;
     max-width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 .content {
     width: 500px;
     margin: 0 auto;
 }
 footer {
-    background-color: #373738;
+    display: inline-block;
+    background-color: bisque;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
 }
 ul {
-    padding: 15px;
-    display: inline-block;
-    vertical-align: top;
+    margin-right: 200px;
 }
 p {
  font-size: x-large;
@@ -42,7 +45,7 @@ p {
     justify-content: center;
 }
 body {
-    background-color: darkgrey;
+    background-color: aliceblue;
 }
 li {
     display: inline-block;
@@ -61,10 +64,49 @@ section {
 }
 button {
     size: 30px;
+    margin-left: 170px;
 }
 .workGrid {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%; 
+}
+.work {
+    margin-left: 475px;
+    color: darkgray;
+    background-color: beige;
+    border-radius: 6px;
+    size: 20px;
+}
+.column1 {
+    height: auto;
+    width: 100%;
+    margin-left: 280px;
+}
+.column2 {
+    margin-left: 390px;
+    width: 100%;
+    height: auto;
+}
+.column3 {
+    margin-left: 200px;
+    width: 100%;
+    height: auto;
+}
+a {
+    justify-content: right;
+}
+body {
+    background-image: url("images/pexels-henry-&-co-1939485.jpg");
+}
+.column4 {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.column5 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
